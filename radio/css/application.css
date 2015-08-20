@@ -1,4 +1,33 @@
-.panel-buttons {
+.panel-buttons 
+{
 	margin-right: -16px;
 	margin-top: -11px;
+}
+
+.email
+{
+    width: 30%;
+    float: left;
+}
+
+.password
+{
+    width: 30%;
+    float: left;
+    margin-left: 10px;
+}
+
+.btn
+{
+    margin-left: 10px;
+    margin-top: 25px;
+    background-color: #a7166a;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 1.42857;
+    text-align: center
+    vertical-align:middle;
+    white-space: nowrap;
 }
