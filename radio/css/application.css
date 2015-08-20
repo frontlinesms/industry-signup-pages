@@ -45,3 +45,9 @@
 { 
     padding: 5px;
 }
+
+tbody tr .prop
+{
+    float: left;
+    width: 50%;
+}
