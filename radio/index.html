@@ -40,63 +40,68 @@
 					Get started today with your FrontlineCloud powered Radio now!
 				</div>
 				<div class="panel-body">
-                    <form class="frontline-signup-form">
+                    <form class="form-inline">
+                        
                         <table>
                             <tbody>
-                                <tr class="prop">
-<!--
-                                    <td valign="top" class="name">
-                                        <label for="email">Email</label>
+                                
+                                    <tr class="prop form-group">
+                                    <!--<td valign="top" class="name">
+                                            <label for="email">Email</label>
                                         </td>
 -->
-                                        <td valign="top" class="value ">Email
-                                        <input type="text" name="email" value="" class="form-control" size="40" placeholder="Email" id="email">
-                                    </td>
-                                </tr>
-                                <tr class="prop">
-<!--
-                                    <td valign="top" class="name">
-                                        <label for="password">Choose a password</label>
+                                        <td valign="top" class="value ">
+                                            <label for="emailField">Email</label>
+                                            <input type="text" name="email" value="" class="form-control" placeholder="Email" id="email">
                                         </td>
--->
-                                        <td valign="top" class="value ">Choose a password
-                                        <input type="password" name="password" value="" placeholder="Password" class="form-control" size="40" id="password">			
-                                    </td>
-                                </tr>
-                                <tr class="prop">
-<!--
-                                    <td valign="top" class="name">
-                                    <label for="password2">Confirm your password</label>
-                                    </td>
--->
-                                    <td valign="top" class="value ">Confirm your password
-                                    <input type="password" name="password2" value="" placeholder="Confirm password" class="form-control" size="40" id="password2">
-                                    </td>
-                                </tr>
-                                <tr id="lang-row">
-<!--                                    <td class="name" valign="top">Language</td>-->
-                                    <td class="value" valign="top">
-                                        Language
-                                        <select class="form-control dropdown" name="language" id="language">
-                                                <option value="de">Deutsch</option>
-                                                <option value="" selected="selected">English</option>
-                                                <option value="es">Español</option>
-                                                <option value="fr">Français</option>
-                                                <option value="in_ID">Indonesian</option>
-                                                <option value="jp">Japanese</option>
-                                                <option value="km">Khmer</option>
-                                                <option value="sw">Kiswahili</option>
-                                                <option value="nl">Nederlands</option>
-                                                <option value="pt">Português</option>
-                                                <option value="ru">Русский</option>
-                                                <option value="ar">العربية</option>
-                                        </select>
-                                    </td>
                                     </tr>
-                                    <tr>
-<!--                                        <td class="name" valign="top">Time zone</td>-->
+                                
+                                    <tr class="prop form-group">
+<!--                                    <td valign="top" class="name">
+                                            <label for="password">Choose a password</label>
+                                        </td>
+-->
+                                        <td valign="top" class="value ">
+                                            <label for="passwordField">Choose a password</label>
+                                            <input type="password" name="password" value="" placeholder="Password" class="form-control" id="password">			                            </td>
+                                    </tr>
+                                
+                                    <tr class="prop form-group">
+                                    <!--<td valign="top" class="name">
+                                            <label for="password2">Confirm your password</label>
+                                        </td>
+    -->
+                                        <td valign="top" class="value ">
+                                            <label for="passwordField">Confirm your password</label>
+                                            <input type="password" name="password2" value="" placeholder="Confirm password" class="form-control" id="password2">
+                                        </td>
+                                    </tr>
+                                
+                                    <tr id="lang-row" class="form-group">
+    <!--                                <td class="name" valign="top">Language</td>-->
                                         <td class="value" valign="top">
-                                            Time zone
+                                           <label for="languageField">Language</label> 
+                                           <select class="form-control dropdown" name="language" id="language">
+                                                    <option value="de">Deutsch</option>
+                                                    <option value="" selected="selected">English</option>
+                                                    <option value="es">Español</option>
+                                                    <option value="fr">Français</option>
+                                                    <option value="in_ID">Indonesian</option>
+                                                    <option value="jp">Japanese</option>
+                                                    <option value="km">Khmer</option>
+                                                    <option value="sw">Kiswahili</option>
+                                                    <option value="nl">Nederlands</option>
+                                                    <option value="pt">Português</option>
+                                                    <option value="ru">Русский</option>
+                                                    <option value="ar">العربية</option>
+                                            </select>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr class="form-group">
+<!--                                    <td class="name" valign="top">Time zone</td>-->
+                                        <td class="value" valign="top">
+                                           <label for="timezoneField">Time zone</label> 
                                             <select class="form-control" name="timezone" id="timezone">
                                                 <option value="Etc/GMT+12">(GMT -12:00) International Date Line West</option>
                                                 <option value="Etc/GMT+11">(GMT -11:00) Coordinated Universal Time-11</option>
@@ -199,15 +204,19 @@
                                             </select>
                                         </td>
                                     </tr>
-                                    <tr>
-<!--                                        <td class="name"></td>-->
+                                
+                                    <tr class="form-group">
+<!--                                    <td class="name"></td>-->
                                         <td class="value tos ">
                                             <label for="acceptedTermsOfService">
-                                                <input type="hidden" name="_acceptedTermsOfService"><input type="checkbox" name="acceptedTermsOfService" id="acceptedTermsOfService">
+                                                <input type="hidden" name="_acceptedTermsOfService">
+                                                <input type="checkbox" name="acceptedTermsOfService" id="acceptedTermsOfService" required>
                                                 I accept the <a target="_blank" href="https://cloud.frontlinesms.com/termsOfService">Terms of Service</a>
-                                            <label>
-                                        </label></label></td>
+                                                <label></label>
+                                            </label>
+                                        </td>
                                     </tr>
+                                
                                 </tbody>
                         </table>
                         
@@ -216,7 +225,7 @@
                         
                     </form>
 
-                    <button class="signup-button">Signup</button>
+                    <button class="btn signup-button" type="submit">Signup</button>
 
                     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
                     <script type="text/javascript" src="https://cloud.frontlinesms.com/assets/signup.js"></script>
