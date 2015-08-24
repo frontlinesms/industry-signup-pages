@@ -1,3 +1,8 @@
+body
+{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
 .panel-buttons 
 {
 	margin-right: -16px;
@@ -29,6 +34,7 @@
     vertical-align:middle;
     white-space: nowrap;
     padding: 6px 12px;
+    margin-left: 10px;
 }
 
 .signup-button:focus, .signup-button:hover
@@ -49,11 +55,61 @@
 
 .value
 { 
-    padding: 5px;
+    padding: 10px;
 }
 
 tbody tr .prop
 {
     float: left;
-    width: 50%;
+    width: 100%;
+}
+
+.main-fields
+{
+    float: left;
+}
+
+.three h2
+{
+    text-align: center;
+    color: #a7166a;
+}
+
+.three p
+{
+    text-align: center;
+    padding: 0px 0px 30px 0px;
+}
+
+.gettingStarted
+{
+    background-color: #ccc;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 4px 4px 0px 0px;
+}
+
+#formContainer
+{
+    background-color: #939598;
+}
+
+.four
+{
+    padding: 20px;
+    text-align: center;
+}
+
+.five
+{
+    padding: 20px;
+    text-align: center;
+}
+
+.six
+{
+    padding: 20px;
+    text-align: center;
 }

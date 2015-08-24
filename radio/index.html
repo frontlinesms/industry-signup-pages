@@ -15,16 +15,24 @@
 <body>
 <div class="container">
 	<div class="row">
-		<div class="col-xs-12">
-			<img class="pull-right" src="images/CloudLogo.png">
+        
+		<div class="col-xs-12 one">
+            
+			<img class="" src="images/Frontline-Header.png" width="1140px;">
 		</div>
-		<div class="col-xs-12">
+<!--
+        
+		<div class="col-xs-12 two">
 			<p class="h2">Empowering Radio Engagement with Frontline</p>
 		</div>
-		<div class="col-xs-12">
-			<img src="images/image00.png" class="img-responsive thumbnail center-block">
+-->
+        
+		<div class="col-xs-12 two">
+			<img src="images/Radio.png" class="img-responsive thumbnail center-block">
 		</div>
-		<div class="col-xs-12">
+        
+		<div class="col-xs-12 three">
+            <h2>Getting Started</h2>
 			<p>
 				Frontline works alongside radio stations around the world to empower engagement via SMS,, working with
 				initiatives like Radio Free South Sudan’s youth radio show (link to Sawa Shabab). Now we are looking to
@@ -34,74 +42,69 @@
 				Radio Getting Started page which will give you all the information and steps necessary to use SMS with
 				your radio station.
 			</p>
+            
+            <h2>Sign Up</h2>
 
-			<div class="panel panel-info">
-				<div class="panel-heading">
+			<div id="formContainer" class="panel">
+				<div class="gettingStarted">
 					Get started today with your FrontlineCloud powered Radio now!
 				</div>
 				<div class="panel-body">
-                    <form class="form-inline">
-                        
+                    <form class="frontline-signup-form">
                         <table>
                             <tbody>
-                                
-                                    <tr class="prop form-group">
-                                    <!--<td valign="top" class="name">
-                                            <label for="email">Email</label>
-                                        </td>
+                                <tr class="prop main-fields">
+<!--
+                                    <td valign="top" class="name">
+                                        <label for="email">Email</label>
+                                    </td>
 -->
                                         <td valign="top" class="value ">
-                                            <label for="emailField">Email</label>
-                                            <input type="text" name="email" value="" class="form-control" placeholder="Email" id="email">
-                                        </td>
-                                    </tr>
-                                
-                                    <tr class="prop form-group">
-<!--                                    <td valign="top" class="name">
-                                            <label for="password">Choose a password</label>
-                                        </td>
+                                        <input type="text" name="email" value="" class="form-control" size="40" placeholder="Email" id="email">
+                                    </td>
+                                </tr>
+                                <tr class="prop main-fields">
+<!--
+                                    <td valign="top" class="name">
+                                        <label for="password">Choose a password</label>
+                                    </td>
 -->
                                         <td valign="top" class="value ">
-                                            <label for="passwordField">Choose a password</label>
-                                            <input type="password" name="password" value="" placeholder="Password" class="form-control" id="password">			                            </td>
+                                        <input type="password" name="password" value="" placeholder="Password" class="form-control" size="40" id="password">			
+                                    </td>
+                                </tr>
+                                <tr class="prop main-fields">
+<!--
+                                    <td valign="top" class="name">
+                                        <label for="password2">Confirm your password</label>
+                                    </td>
+-->
+                                    <td valign="top" class="value ">
+                                    <input type="password" name="password2" value="" placeholder="Confirm password" class="form-control" size="40" id="password2">
+                                    </td>
+                                </tr>
+                                <tr id="lang-row">
+<!--                                    <td class="name" valign="top">Language</td>-->
+                                    <td class="value" valign="top">
+                                        <select class="form-control dropdown" name="language" id="language">
+                                                <option value="de">Deutsch</option>
+                                                <option value="" selected="selected">English</option>
+                                                <option value="es">Español</option>
+                                                <option value="fr">Français</option>
+                                                <option value="in_ID">Indonesian</option>
+                                                <option value="jp">Japanese</option>
+                                                <option value="km">Khmer</option>
+                                                <option value="sw">Kiswahili</option>
+                                                <option value="nl">Nederlands</option>
+                                                <option value="pt">Português</option>
+                                                <option value="ru">Русский</option>
+                                                <option value="ar">العربية</option>
+                                        </select>
+                                    </td>
                                     </tr>
-                                
-                                    <tr class="prop form-group">
-                                    <!--<td valign="top" class="name">
-                                            <label for="password2">Confirm your password</label>
-                                        </td>
-    -->
-                                        <td valign="top" class="value ">
-                                            <label for="passwordField">Confirm your password</label>
-                                            <input type="password" name="password2" value="" placeholder="Confirm password" class="form-control" id="password2">
-                                        </td>
-                                    </tr>
-                                
-                                    <tr id="lang-row" class="form-group">
-    <!--                                <td class="name" valign="top">Language</td>-->
+                                    <tr>
+<!--                                        <td class="name" valign="top">Time zone</td>-->
                                         <td class="value" valign="top">
-                                           <label for="languageField">Language</label> 
-                                           <select class="form-control dropdown" name="language" id="language">
-                                                    <option value="de">Deutsch</option>
-                                                    <option value="" selected="selected">English</option>
-                                                    <option value="es">Español</option>
-                                                    <option value="fr">Français</option>
-                                                    <option value="in_ID">Indonesian</option>
-                                                    <option value="jp">Japanese</option>
-                                                    <option value="km">Khmer</option>
-                                                    <option value="sw">Kiswahili</option>
-                                                    <option value="nl">Nederlands</option>
-                                                    <option value="pt">Português</option>
-                                                    <option value="ru">Русский</option>
-                                                    <option value="ar">العربية</option>
-                                            </select>
-                                        </td>
-                                    </tr>
-                                
-                                    <tr class="form-group">
-<!--                                    <td class="name" valign="top">Time zone</td>-->
-                                        <td class="value" valign="top">
-                                           <label for="timezoneField">Time zone</label> 
                                             <select class="form-control" name="timezone" id="timezone">
                                                 <option value="Etc/GMT+12">(GMT -12:00) International Date Line West</option>
                                                 <option value="Etc/GMT+11">(GMT -11:00) Coordinated Universal Time-11</option>
@@ -204,28 +207,24 @@
                                             </select>
                                         </td>
                                     </tr>
-                                
-                                    <tr class="form-group">
-<!--                                    <td class="name"></td>-->
+                                    <tr>
+<!--                                        <td class="name"></td>-->
                                         <td class="value tos ">
                                             <label for="acceptedTermsOfService">
                                                 <input type="hidden" name="_acceptedTermsOfService">
-                                                <input type="checkbox" name="acceptedTermsOfService" id="acceptedTermsOfService" required>
-                                                I accept the <a target="_blank" href="https://cloud.frontlinesms.com/termsOfService">Terms of Service</a>
-                                                <label></label>
-                                            </label>
+                                                <input type="checkbox" name="acceptedTermsOfService" id="acceptedTermsOfService">
+                                                I accept the <a target="_blank" href="https://darknightly.frontlinesms.com/termsOfService">Terms of Service</a>
+                                            <label>
+                                            </label></label>
                                         </td>
                                     </tr>
-                                
                                 </tbody>
                         </table>
-                        
                         <input type="hidden" name="plan" value="TRIAL"/>
-                        <input type="hidden" name="industry" value="radio"/>
-                        
+                        <input type="hidden" name="industry" value=""/>
                     </form>
 
-                    <button class="btn signup-button" type="submit">Signup</button>
+                    <button class="signup-button">Signup</button>
 
                     <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
                     <script type="text/javascript" src="https://cloud.frontlinesms.com/assets/signup.js"></script>
@@ -233,17 +232,20 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-xs-12">
+        
+		<div class="col-xs-12 four">
 			<p>
 				Frontline helps empower radio stations to communicate directly to listeners over SMS. Our new Activities
 				let you launch polls to your listeners, allows listeners to request songs, take feedback and for users
 				to register who they are.
 			</p>
 		</div>
-		<div class="col-xs-12">
-			<img src="images/Radio.png" class="img-responsive thumbnail">
+        
+		<div class="col-xs-12 five">
+			<img src="images/image00.png" class="img-responsive thumbnail center-block">
 		</div>
-		<div class="col-xs-12">
+        
+		<div class="col-xs-12 six">
 			<p>
 				By adding Frontline’s two way messaging to traditional media channels like radio, you can reach a whole
 				new level of engagement and action as part of your existing outreach strategy.
@@ -253,101 +255,8 @@
 				To read more about how Frontline has worked alongside radio, check out our blog.
 			</p>
 
-			<p>
-				//Not for the sign up page, but for at sign in to app
-			</p>
-
-			<p>
-				<b>Getting Started</b>
-			</p>
-
-			<p>
-				To get the most of your FrontlineCloud workspace, you’ll need to complete each of the steps below. As
-				you click on each step, a tray will slide out from the right side of the screen for you to setup and
-				configure Frontline. Complete Steps 1-3 to get started. If you ever need any help, click the ‘Get
-				Support’ link at the bottom of this page.
-			<ol>
-				<li>Connect to a Mobile Network</li>
-				<ul>
-					<li>
-						Connect to a web aggregator or an Android device via FrontlineSync. CLICK HERE to begin
-						configuring your
-						account.
-					</li>
-					<li>
-						For more information about FrontlineSync vs Web Aggregators, check out this video. (Link to
-						YouTube
-						video)
-					</li>
-				</ul>
-				<li>Configure your Radio Activities</li>
-				<ul>
-					<li>
-						As part of your FrontlineCloud powered Radio workspace, we’ve included a few activities to help
-						you run
-						more powerful engagements with your listeners. To start configuring your Activities, CLICK HERE.
-						The
-						Activities at the top of the tray are customized for Radio users.
-					</li>
-				</ul>
-				<li>Send a Test Message</li>
-				<ul>
-					<li>
-						After you’ve configured your Activities and connected to a mobile network, its time to send a
-						test
-						message. Enter a contact number in the multi selector on the toolbar to the right. Enter some
-						sample
-						text to send to a user, and select which connection in the drop down below. Click send and wait
-						for the
-						magic!
-					</li>
-				</ul>
-				<li>Upload Contacts (optional)</li>
-				<ul>
-					<li>
-						You can also upload some contacts. CLICK HERE to be taken to the contacts page of FronlineCloud.
-						Note,
-						this will take you away from this page to complete the import process.
-					</li>
-				</ul>
-				<li>Get Support (optional)</li>
-				<ul>
-					<li>
-						You can always access our database of support documents here at support.frontlinesms.com. If you
-						need to
-						get ahold of someone from the team, you can get help here (LINK)
-					</li>
-				</ul>
-			</ol>
-			</p>
 		</div>
-		<div class="col-xs-12">
-			<p class="h3">Radio Templates</p>
-
-			<p>
-				Included in your FrontlineCloud workspace are some specialized Activities designed specifically for
-				Radio
-				users. These Activities are easy to configure like our classic Activities, but are tailored for the
-				workflows for use with Radio.
-			</p>
-
-			<p>
-				Contest - Want to run a contest using a keyword? Use this Activity and announce to your users the first
-				person to text ‘Text2Win’ will win a prize. This Activity lets you specify a keyword and an auto reply
-				which will be sent to each contestant. The winner will be displayed in the Inbox with a keyword filter.
-			</p>
-
-			<p>
-				Send a Survey - You can publish a survey to all your subscribers at the push of a button. This survey
-				will send a question and series of answers to a specified group or list of users. Users can reply using
-				keywords which will automatically tabulate and graph responses.
-			</p>
-
-			<p>
-				Feedback - One of the most important uses for SMS alongside radio is to keep the conversation going.
-				Using this Activity lets users text in responses
-			</p>
-		</div>
+    
 	</div>
 </div>
 </body>
