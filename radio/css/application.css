@@ -70,6 +70,10 @@ tbody tr .prop
     float: left;
 }
 */
+.three
+{
+    padding-top: 50px;
+}
 
 .three h2
 {
@@ -101,20 +105,23 @@ tbody tr .prop
 
 .one
 {
-    padding-bottom: 20px;
-    padding-top: 20px;
+    text-align: center;
+}
+.one img
+{
+   background-size: cover;
 }
 
 .four
 {
-    padding: 20px;
     text-align: center;
 }
 
-.five
+.four h2
 {
-    padding: 20px;
-    text-align: center;
+    
+    color: #a7166a;
+    padding: 0px 0px 20px 0px; 
 }
 
 .six
@@ -122,6 +129,18 @@ tbody tr .prop
     padding: 20px;
     text-align: center;
 }
+
+.footer
+{
+    background: url(../images/BIG-KEYBOARD.png) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 500px;
+    
+}
+
 /*
 
 hr
