@@ -96,6 +96,12 @@ tbody tr .prop
     background-color: #939598;
 }
 
+.one
+{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
 .four
 {
     padding: 20px;
@@ -112,4 +118,10 @@ tbody tr .prop
 {
     padding: 20px;
     text-align: center;
+}
+
+hr
+{
+    border: 0px 0px 2px 0px;
+    border-color: #a7166a;
 }
