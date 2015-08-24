@@ -34,7 +34,7 @@ body
     vertical-align:middle;
     white-space: nowrap;
     padding: 6px 12px;
-    margin-left: 10px;
+    margin-left: 25px;
 }
 
 .signup-button:focus, .signup-button:hover
@@ -64,15 +64,18 @@ tbody tr .prop
     width: 100%;
 }
 
+/*
 .main-fields
 {
     float: left;
 }
+*/
 
 .three h2
 {
     text-align: center;
     color: #a7166a;
+    padding: 0px 0px 20px 0px;
 }
 
 .three p
@@ -119,9 +122,10 @@ tbody tr .prop
     padding: 20px;
     text-align: center;
 }
+/*
 
 hr
 {
     border: 0px 0px 2px 0px;
     border-color: #a7166a;
-}
+}*/
