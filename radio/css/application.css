@@ -86,7 +86,7 @@ html
 
 #part1 
 {
-    text-align: center;
+    
     padding: 40px 20px;
 }
 
@@ -94,22 +94,9 @@ html
 {
 /*    color: #606161;*/
     font-size: 14pt;
-}
-
-#part2
-{
-    padding: 20px 40px;
-    text-align: center;
-}
-
-#part2 p
-{
-/*    color: #606161;*/
-    font-size: 14pt;
+    font-family:  "helvetica";
 }
 
 #footer img
 {
-    text-align: center;
-    background-size: cover;
 }
