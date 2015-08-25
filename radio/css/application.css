@@ -20,6 +20,12 @@ html
     color: #a7166a;
 }
 
+#gettingStarted p
+{
+/*    color: #606161;*/
+    font-size: 14pt;
+}
+
 #formBg
 {
     background-image: url(../images/SIGN-UP-FORM.png);
@@ -79,10 +85,22 @@ html
     padding: 40px 20px;
 }
 
+#part1 p
+{
+/*    color: #606161;*/
+    font-size: 14pt;
+}
+
 #part2
 {
     padding: 20px 40px;
     text-align: center;
+}
+
+#part2 p
+{
+/*    color: #606161;*/
+    font-size: 14pt;
 }
 
 #footer img
