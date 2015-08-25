@@ -1,56 +1,71 @@
-body
+html
 {
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
-.panel-buttons 
+#header img
 {
-	margin-right: -16px;
-	margin-top: -11px;
+    width:100%;
+    text-align: center;
 }
 
-.email
+#gettingStarted
 {
-    width: 30%;
-    float: left;
+    padding: 65px 10px;
+    text-align: center;
 }
 
-.password
+#gettingStarted h2
 {
-    width: 30%;
-    float: left;
-    margin-left: 10px;
+    color: #a7166a;
 }
 
-.signup-button
+#formBg
 {
-    background-color: #a7166a;
-    border: 1px solid transparent;
-    border-radius: 4px;
-    color: #fff;
-    font-size: 14px;
-    line-height: 1.42857;
-    text-align: center
-    vertical-align:middle;
-    white-space: nowrap;
-    padding: 6px 12px;
-    margin-left: 25px;
+    background-image: url(../images/SIGN-UP-FORM.png);
+    padding: 20px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
 }
 
-.signup-button:focus, .signup-button:hover
+#signupForm
 {
-    background-color: #a7166a;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+#signupForm h2
+{
     color: #fff;
 }
 
-.name
+#radioForm
 {
-    padding: 10px 15px 0px 15px; ;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
 }
 
-.label
+#btnSignup
 {
-    padding: 10px;
+   margin-top: 30px; 
+   background-color: #a7166a;
+   color: #fff;
+   border-radius: 4px;
+   border: 1px solid transparent;
+   line-height: 1.42857;
+   text-align: center;
+   vertical-align:middle;
+   white-space: nowrap;
+}
+
+#btnSignup:focus, 
+#btnSignup:hover
+{
+    background-color: #a7166a;
+    color: #fff;
 }
 
 .value
@@ -58,93 +73,20 @@ body
     padding: 10px;
 }
 
-tbody tr .prop
-{
-    float: left;
-    width: 100%;
-}
-
-/*
-.main-fields
-{
-    float: left;
-}
-*/
-.three
-{
-    padding-top: 50px;
-}
-
-.three h2
+#part1 
 {
     text-align: center;
-    color: #a7166a;
-    padding: 0px 0px 20px 0px;
+    padding: 40px 20px;
 }
 
-.three p
+#part2
 {
-    text-align: center;
-    padding: 0px 0px 30px 0px;
-}
-
-.gettingStarted
-{
-    background-color: #ccc;
-    padding: 20px;
-    text-align: center;
-    color: #fff;
-    font-size: 20px;
-    border-radius: 4px 4px 0px 0px;
-}
-
-#formContainer
-{
-    background-color: #939598;
-}
-
-.one
-{
-    text-align: center;
-}
-.one img
-{
-   background-size: cover;
-}
-
-.four
-{
+    padding: 20px 40px;
     text-align: center;
 }
 
-.four h2
+#footer img
 {
-    
-    color: #a7166a;
-    padding: 0px 0px 20px 0px; 
-}
-
-.six
-{
-    padding: 20px;
     text-align: center;
-}
-
-.footer
-{
-    background: url(../images/BIG-KEYBOARD.png) no-repeat center center fixed; 
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
-    height: 500px;
-    
 }
-
-/*
-
-hr
-{
-    border: 0px 0px 2px 0px;
-    border-color: #a7166a;
-}*/
