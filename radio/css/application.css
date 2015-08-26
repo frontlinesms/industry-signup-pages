@@ -100,6 +100,41 @@ html
     line-height: 32px;
 }
 
-#footer img
+#footer
 {
+    background-image: url(../images/Footer.png);
+    padding: 20px 10px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height:500px;
+
+}
+
+#footer-lhs
+{
+    padding-top: 80px;
+    color:white;
+    font-size: 18px;
+}
+
+#footer-rhs
+{
+    padding-top: 80px;
+    color:white;
+    font-size: 18px;
+}
+
+.btn-footer
+{
+  background-color: rgba(255,0,0,0.3);
+    width:350px;
+    color:white;
+    font-size: 18px;
+}
+.btn-footer:focus, 
+.btn-footer:hover
+{
+  background-color: rgba(255,0,0,0.4);
+    color: #fff;
+    text-decoration: underline;
 }
