@@ -76,34 +76,52 @@
                         <div class="panel-body">
 
                             <form class="frontline-signup-form">
-                                <table>
-                                    <tbody>
-                                        <tr class="prop col-xs-4">
-                <!--
-                                                    <td valign="top" class="name">
-                                                        <label for="email">Email</label>
-                                                    </td>
-                -->
-                                            <td valign="top" class="value ">
-                                                <input type="text" name="email" value="" class="form-control" size="40" placeholder="Email" id="email">
-                                            </td>
-                                        </tr>
-
-                                        <tr class="prop col-xs-4">
-            <!--
-                                                <td valign="top" class="name">
-                                                    <label for="password">Choose a password</label>
-                                                </td>
-            -->
-                                            <td valign="top" class="value ">
-                                                <input type="password" name="password" value="" placeholder="Password" class="form-control" size="40" id="password">			
-                                            </td>
-                                        </tr>
-                                        
-                                        <tr class="col-xs-4">
-            <!--                                        <td class="name" valign="top">Time zone</td>-->
-                                            <td class="value" valign="top">
-                                                <select class="form-control" name="timezone" id="timezone">
+                                
+                                <div id="row1" class="row" style="padding-bottom:10px;">
+                                    
+                                    <div id="email" class="col-xs-4">
+                                        <input type="text" name="email" value="" class="form-control" size="40" placeholder="Email" id="email">
+                                    </div>
+                                    
+                                    <div id="password" class="col-xs-4">
+                                        <input type="password" name="password" value="" placeholder="Password" class="form-control" size="40" id="password">
+                                    </div>
+                                    
+                                    <div id="accept" class="col-xs-4">
+                                        <label class="terms" for="acceptedTermsOfService">
+                                            <input type="hidden" name="_acceptedTermsOfService">
+                                            <input type="checkbox" name="acceptedTermsOfService" id="acceptedTermsOfService">
+                                            I accept the 
+                                            <a target="_blank" href="https://darknightly.frontlinesms.com/termsOfService">
+                                                Terms of Service
+                                            </a>
+                                        <label>
+                                        </label></label>
+                                    </div>
+                                    
+                                </div>
+                                
+                                <div id="row2" style="width:360px; float:left; padding-top:10px;">
+                                    
+                                    <div id="language" style="width:140px; float:left;">
+                                        <select class="form-control dropdown" name="language" id="language">
+                                                <option value="de">Deutsch</option>
+                                                <option value="" selected="selected">English</option>
+                                                <option value="es">Español</option>
+                                                <option value="fr">Français</option>
+                                                <option value="in_ID">Indonesian</option>
+                                                <option value="jp">Japanese</option>
+                                                <option value="km">Khmer</option>
+                                                <option value="sw">Kiswahili</option>
+                                                <option value="nl">Nederlands</option>
+                                                <option value="pt">Português</option>
+                                                <option value="ru">Русский</option>
+                                                <option value="ar">العربية</option>
+                                        </select>
+                                    </div>
+                                    
+                                    <div id="time-zone" style="width:200px; float:left; margin-left:20px;">
+                                        <select class="form-control" name="timezone" id="timezone">
                                                             <option value="Etc/GMT+12">(GMT -12:00) International Date Line West</option>
                                                             <option value="Etc/GMT+11">(GMT -11:00) Coordinated Universal Time-11</option>
                                                             <option value="Pacific/Honolulu">(GMT -10:00) Hawaii</option>
@@ -203,64 +221,32 @@
                                                             <option value="Pacific/Tongatapu">(GMT +13:00) Nuku'alofa</option>
                                                             <option value="Pacific/Apia">(GMT +13:00) Samoa</option>
                                                 </select>
-                                            </td>
-                                        </tr>
-                                        
-                                        <tr id="lang-row" class="col-xs-4">
-            <!--                                    <td class="name" valign="top">Language</td>-->
-                                            <td class="value" valign="top">
-                                                <select class="form-control dropdown" name="language" id="language">
-                                                            <option value="de">Deutsch</option>
-                                                            <option value="" selected="selected">English</option>
-                                                            <option value="es">Español</option>
-                                                            <option value="fr">Français</option>
-                                                            <option value="in_ID">Indonesian</option>
-                                                            <option value="jp">Japanese</option>
-                                                            <option value="km">Khmer</option>
-                                                            <option value="sw">Kiswahili</option>
-                                                            <option value="nl">Nederlands</option>
-                                                            <option value="pt">Português</option>
-                                                            <option value="ru">Русский</option>
-                                                            <option value="ar">العربية</option>
-                                                </select>
-                                            </td>
-                                        </tr>
-                                        
-                                        <tr class="prop col-xs-4">
-            <!--
-                                                <td valign="top" class="name">
-                                                    <label for="password2">Confirm your password</label>
-                                                </td>
-            -->
-                                            <td valign="top" class="value ">
-                                                <input type="password" name="password2" value="" placeholder="Confirm password" class="form-control" size="40" id="password2">
-                                            </td>
-                                        </tr>
-
-                                        <tr class="col-xs-4">
-            <!--                                    <td class="name"></td>-->
-                                            <td class="value tos">
-                                                <label class="terms" for="acceptedTermsOfService">
-                                                    <input type="hidden" name="_acceptedTermsOfService">
-                                                    <input type="checkbox" name="acceptedTermsOfService" id="acceptedTermsOfService">
-                                                    I accept the 
-                                                    <a target="_blank" href="https://darknightly.frontlinesms.com/termsOfService">
-                                                        Terms of Service
-                                                    </a>
-                                                <label>
-                                                </label></label>
-                                            </td>
-                                        </tr>
-                                        
-                                    </tbody>
-                                </table>
+                                    </div>
+                                    
+                                    <br clear="all"/>
+                                    
+                                </div>
+                                
+                                <div id="row3" style="width:360px; float:left; margin-left:30px;padding-top:10px;">
+                                    
+                                    <div id="confirm-password">
+                                        <input type="password" name="password2" value="" placeholder="Confirm password" class="form-control" size="40" id="password2">
+                                    </div>
+                                    
+                                </div>
+                                
+                                <div id="row4" style="width:360px; float:left; margin-left:30px;padding-top:10px;">
+                                    
+                                    <div id="submit-button">
+                                        <button class="btn signup-button" id="btnSignup">Sign up</button>
+                                    </div>
+                                    
+                                </div>
                                 
                                 <input type="hidden" name="plan" value="TRIAL"/>
                                 <input type="hidden" name="industry" value="radio"/>
                                 
                             </form>
-
-                            <button class="btn btn-lg signup-button" id="btnSignup">Signup</button>
 
                             <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
                             <script type="text/javascript" src="https://cloud.frontlinesms.com/assets/signup.js"></script>

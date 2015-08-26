@@ -12,18 +12,20 @@ html
 #gettingStarted
 {
     padding: 65px 10px;
-    text-align: center;
 }
 
 #gettingStarted h2
 {
     color: #a7166a;
+    text-align: center;
+    font-size: 24px;
 }
 
 #gettingStarted p
 {
 /*    color: #606161;*/
-    font-size: 14pt;
+    font-size: 18px;
+    line-height: 32px;
 }
 
 #formBg
@@ -36,14 +38,15 @@ html
 }
 
 #signupForm
-{
-    text-align: center;
+{ 
     padding: 50px 0px;
 }
 
 #signupForm h2
 {
     color: #fff;
+    font-size: 24px;
+    text-align: center;
 }
 
 #radioForm
@@ -60,8 +63,7 @@ html
 }
 
 #btnSignup
-{
-   margin-top: 30px; 
+{ 
    background-color: #fff;
    color: #a7166a;
    border-radius: 4px;
@@ -93,8 +95,9 @@ html
 #part1 p
 {
 /*    color: #606161;*/
-    font-size: 14pt;
+    font-size: 18px;
     font-family:  "helvetica";
+    line-height: 32px;
 }
 
 #footer img
