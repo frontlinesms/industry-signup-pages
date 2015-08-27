@@ -8,12 +8,14 @@ a
     color: #a7166a;
 }
 
-#header img
+#header 
 {
-    height: 250px;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
+    background-image: url(../images/Radio-Hero.jpg);
+    padding: 20px 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 325px;
 }
 
 #radioImage
@@ -137,6 +139,18 @@ a
     color:white;
     font-size: 18px;
 }
+
+#footer-rhs a
+{
+    color: #fff;
+    text-decoration: underline;
+}
+
+#footer-rhs a:hover
+{
+    text-decoration: none;
+}
+
 
 .btn-footer
 {
