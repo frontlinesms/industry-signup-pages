@@ -3,6 +3,11 @@ html
     font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
+a
+{
+    color: #a7166a;
+}
+
 #header img
 {
     height: 250px;
@@ -16,11 +21,16 @@ html
     padding: 65px 10px 0px 10px;
 }
 
+#gettingStarted
+{
+    margin-bottom: 25px;
+}
+
 #gettingStarted h2
 {
     color: #a7166a;
     text-align: center;
-    font-size: 24px;
+    font-size: 36px;
 }
 
 #gettingStarted p
@@ -41,14 +51,15 @@ html
 
 #signupForm
 { 
-    padding: 50px 0px;
+    padding: 50px 0px 70px 0px;
 }
 
 #signupForm h2
 {
     color: #fff;
-    font-size: 24px;
+    font-size: 36px;
     text-align: center;
+    margin-top: 10px;
 }
 
 #radioForm
@@ -108,8 +119,7 @@ html
     padding: 20px 10px;
     background-repeat: no-repeat;
     background-position: center center;
-    height:500px;
-
+    height:480px;
 }
 
 #footer-lhs
@@ -117,6 +127,8 @@ html
     padding-top: 80px;
     color:white;
     font-size: 18px;
+    text-align: center;
+    margin-top: 47px;
 }
 
 #footer-rhs
