@@ -175,11 +175,11 @@ a
 
 
 /*Styling for success page*/
-#wrapper
+#success-body
 {
-    max-width: 800px;
     margin: 0 auto;
     text-align: center;
+    margin-bottom: 50px;
 }
 
 #check i
@@ -187,7 +187,6 @@ a
     text-align: center;
     color: #5cb85c;
     font-size: 250px;
-    margin-top: 50px;
 }
 
 .back-radio
