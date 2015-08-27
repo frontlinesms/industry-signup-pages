@@ -172,3 +172,27 @@ a
   background-color: rgba(167,22,106,0.6);
     color: #fff;
 }
+
+
+/*Styling for success page*/
+#wrapper
+{
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+i
+{
+    text-align: center;
+    color: #5cb85c;
+    font-size: 250px;
+    margin-top: 50px;
+}
+
+.back-radio
+{
+    color: #A91867;
+    text-decoration: none;
+    font-size: 24px;
+}
