@@ -20,9 +20,14 @@
 
 <body>
     
-    <div id="header">
-	</div>
+    <div class="container-fluid">
 
+        <div class="row">
+            <div id="header" class="responsive">
+            </div>
+        </div>
+
+    </div>
 
     <!--start of container1-->
     <div class="container">
@@ -74,13 +79,13 @@
 
                             <form class="frontline-signup-form">
                                 
-                                <div id="row1" style="padding-bottom:10px;">
+                                <div class="form-group" id="row1" style="padding-bottom:10px;">
                                     
-                                    <div id="email" class="col-xs-4">
+                                    <div id="email" class="col-md-4 form-group">
                                         <input type="text" name="email" value="" class="form-control" size="40" placeholder="Email" id="email">
                                     </div>
                                    
-                                    <div id="language" class="col-xs-2" style="float:left;">
+                                    <div id="language" class="col-md-2 form-group" style="float:left;">
                                         <select class="form-control dropdown" name="language" id="language">
                                                 <option value="de">Deutsch</option>
                                                 <option value="" selected="selected">English</option>
@@ -97,7 +102,7 @@
                                         </select>
                                     </div>
                                     
-                                    <div id="time-zone" class="col-xs-3" style="float:left;">
+                                    <div id="time-zone" class="col-md-3 form-group" style="float:left;">
                                         <select class="form-control" name="timezone" id="timezone">
                                                             <option value="Etc/GMT+12">(GMT -12:00) International Date Line West</option>
                                                             <option value="Etc/GMT+11">(GMT -11:00) Coordinated Universal Time-11</option>
@@ -202,7 +207,7 @@
                                     
                                     
                                                                          
-                                    <div id="accept" class="col-xs-3">
+                                    <div id="accept" class="col-md-3 form-group">
                                         <label class="terms" style="margin-top: 5px;" for="acceptedTermsOfService">
                                             <input type="hidden" name="_acceptedTermsOfService">
                                             <input type="checkbox" name="acceptedTermsOfService" id="acceptedTermsOfService">
@@ -211,30 +216,31 @@
                                                 Terms of Service</a>
                                         <label>
                                     </div>
+
                                  <br clear="all"/>
 
                                 </div>
                                 
-                                <div id="row2" class="col-xs-4" style="float:left; padding-top:10px;">
+                                <div id="row2" class="col-md-4 form-group" style="float:left; padding-top:10px;">
                                     
-                                    <div id="password" >
+                                    <div id="password" class="form-group">
                                         <input type="password" name="password" value="" placeholder="Password" class="form-control" size="40" id="password">
                                     </div>
 
                                 </div>
                                 
-                                <div id="row3" class="col-xs-5" style="float:left; padding-top:10px;">
+                                <div id="row3" class="col-md-5 form-group" style="float:left; padding-top:10px;">
 
 
-                                    <div id="confirm-password">
+                                    <div id="confirm-password" class="form-group">
                                         <input type="password" name="password2" value="" placeholder="Confirm password" class="form-control" size="40" id="password2">
                                     </div>
                                     
                                 </div>
                                 
-                                <div id="row4" class="col-xs-3" style="float:left; padding-top:10px;">
+                                <div id="row4" class="col-md-3 form-group" style="float:left; padding-top:10px;">
                                     
-                                    <div id="submit-button">
+                                    <div id="submit-button" class="form-group">
                                         <button class="btn signup-button" id="btnSignup">Start Broadcasting with Frontline</button>
                                     </div>
                                     
@@ -310,17 +316,16 @@
         
             <!--start of row3-->
             <div class="row">
-                <div   class="col-xs-12">
-                    <div class="col-xs-6" id="footer-lhs">
+                    <div class="col-md-6" id="footer-lhs">
                        <a href="http://cloud.frontlinesms.com" target="_blank" class="btn btn-footer btn-lg"><i class="fa fa-cogs fa-fw"></i>&nbsp;&nbsp;Go to FrontlineCloud’s homepage</a>
                        <a href="http://frontlinesms.com" target="_blank" class="btn btn-footer btn-lg"><i class="fa fa-compass fa-fw"></i>&nbsp;&nbsp;frontlinesms.com</a>
                        <a href="http://support.frontlinesms.com" target="_blank" class="btn btn-footer btn-lg"><i class="fa fa-question fa-fw"></i>&nbsp;&nbsp;Show me your Help docs</a>
                     </div>
-                    <div class="col-xs-6" id="footer-rhs">
+                    <div class="col-md-6" id="footer-rhs">
                         <p>Frontline works alongside radio stations around the world to empower engagement via SMS, working with initiatives like <a href="http://www.peacetechlab.org/media/sawa-shabab" target="_blank">Sawa Shabab peacebuilding radio drama for youth in South Sudan</a>. Now we are looking to promote the use of Radio and SMS as complementary tools, around the world.</p>
                         <p>When you sign up for FrontlineCloud powered Radio with the form above, you will be signed up for a Frontline trial account with Radio specific Activities imported to your workspace. On sign in, you’ll be directed to our new Radio Getting Started page which will give you all the information and steps necessary to use SMS with your radio station.</p>
                     </div>
-                </div>
+
             </div>
          </div>
     </div>
