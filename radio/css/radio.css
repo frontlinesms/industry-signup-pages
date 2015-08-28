@@ -17,13 +17,12 @@ a
     -o-background-size:cover !important;
     background-size:cover !important;
     background-position:center !important;
-    padding: 20px 10px;
     height: 325px;
 }
 
 #radioImage
 {
-    padding: 65px 10px 0px 10px;
+    margin: 65px 0px 10px 0px;
 }
 
 #gettingStarted
@@ -56,7 +55,7 @@ a
 
 #signupForm
 { 
-    padding: 50px 0px 70px 0px;
+    margin: 50px 0px 70px 0px;
 }
 
 #signupForm h2
@@ -101,13 +100,13 @@ a
 
 .value
 { 
-    padding: 10px;
+    margin: 10px;
 }
 
 #part1 
 {
     
-    padding: 40px 20px;
+    margin: 40px 20px;
 }
 
 #part1 p
@@ -144,6 +143,7 @@ a
     padding-top: 80px;
     color:white;
     font-size: 18px;
+    margin-bottom: 50px;
 }
 
 #footer-rhs a
@@ -159,7 +159,7 @@ a
 
 .btn-footer
 {
-  background-color: rgba(167,22,106,0.3);
+    background-color: rgba(167,22,106,0.3);
     width:340px;
     color:white;
     font-size: 18px;
