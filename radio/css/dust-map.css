@@ -10,7 +10,7 @@ a
 
 #header 
 {
-    background-image: url(../images/Sensor-template.png);
+    background-image: url(../images/Radio-Hero.jpg);
     background-repeat:no-repeat !important;
     -webkit-background-size:cover !important;
     -moz-background-size:cover !important;
@@ -119,7 +119,7 @@ a
 
 #footer
 {
-    background-image: url(../images/NB-Footer.png);
+    background-image: url(../images/Sensor-template.png);
     background-repeat:no-repeat !important;
     -webkit-background-size:cover !important;
     -moz-background-size:cover !important;
