@@ -19,18 +19,16 @@ Success.html page
 ## HTML changes
 Index.html page
 - [ ] The title tag in the header
-- [ ] The css, bootstrap, font, js and image links
+- [ ] The image links
 - [ ] The industry value in the sign up form
 - [ ] The script link to the success.html page
 - [ ] Images with appropriate alt tags
 - [ ] Ensure content is marked-up semantically/correctly
 
 Success.html page
-- [ ] The title
-- [ ] The css, bootstrap, font, js and image links
+- [ ] The title tag in the header
 - [ ] The "back to website" url
 - [ ] Images with appropriate alt tags
-- [ ] Ensure content is marked-up semantically/correctly
 
 ## General check
 - [ ] Major headings are clear and descriptive
