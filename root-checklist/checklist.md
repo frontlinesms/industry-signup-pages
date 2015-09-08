@@ -24,8 +24,25 @@ Index.html page
 - [ ] The css, bootstrap, font, js and image links
 - [ ] The industry value in the sign up form
 - [ ] The script link to the success.html page
+- [ ] Images with appropriate alt tags
 
 Success.html page
 - [ ] The title
 - [ ] The css, bootstrap, font, js and image links
 - [ ] The "back to website" url
+- [ ] Images with appropriate alt tags
+
+### Accesibility of the site check
+- [ ] Site load-time is reasonable
+- [ ] Adequate text-to-background contrast across the whole page
+- [ ] Font size and spacing easy to read
+- [ ] Images have appropriate ALT tags
+- [ ] Site has a custom Not-Found/404 page
+
+#### General check
+- [ ] Major headings are clear and descriptive
+- [ ] Styles and colors are consistent
+- [ ] Emphasis (bold,capitalized, etc) is used sparingly
+- [ ] Content is concise and explanatory
+- [ ] URLs are meaningful and  user-friendly
+- [ ] Html page titles are explanatory
