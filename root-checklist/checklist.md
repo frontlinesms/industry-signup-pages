@@ -4,8 +4,8 @@ Index.html page
 - [ ] Infographic
 - [ ] Getting Started content
 - [ ] Sign up form background image
-- [ ] <p></p> tag text within the div id="radioForm" for the sign up form
-- [ ] div id="submit-button": Text on the submit button in the sign up form
+- [ ] The <p></p> tag text within the div id="radioForm" for the sign up form
+- [ ] The div id="submit-button": Text on the submit button in the sign up form
 - [ ] Content after the sign up form before the footer
 - [ ] Footer background image (Optional)
 - [ ] Content in the footer
