@@ -32,7 +32,7 @@ Success.html page
 - [ ] The "back to website" url
 - [ ] Images with appropriate alt tags
 
-### General check
+## General check
 - [ ] Major headings are clear and descriptive
 - [ ] Styles and colors are consistent
 - [ ] Emphasis (bold,capitalized, etc) is used sparingly
@@ -40,7 +40,7 @@ Success.html page
 - [ ] URLs are meaningful and  user-friendly
 - [ ] Html page titles are explanatory
 
-#### Accesibility of the site check
+## Accesibility of the site check
 - [ ] Site load-time is reasonable
 - [ ] Adequate text-to-background contrast across the whole page
 - [ ] Font size and spacing easy to read
