@@ -1,5 +1,5 @@
 # Main items to change
-Visuals
+Index.html page
 - [ ] Header background image
 - [ ] Infographic
 - [ ] Getting Started content
@@ -7,6 +7,13 @@ Visuals
 - [ ] Heading text for the sign up form
 - [ ] Text on the submit button in the sign up form
 - [ ] Content after the sign up form before the footer
+- [ ] Footer background image
+- [ ] Content on the left side of the footer, the first button
+- [ ] Content on the right side of the footer
+
+Success.html page
+- [ ] The success message
+- [ ] "Back to website" text
 - [ ] Footer background image
 - [ ] Content on the left side of the footer, the first button
 - [ ] Content on the right side of the footer
