@@ -21,7 +21,7 @@ Index.html page
 - [ ] The title tag in the header
 - [ ] The image links
 - [ ] The industry value in the sign up form
-- [ ] The script link to the success.html page
+- [ ] The script link to the success.html page (Optional)
 - [ ] Images with appropriate alt tags
 - [ ] Ensure content is marked-up semantically/correctly
 
