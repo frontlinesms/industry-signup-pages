@@ -1,3 +1,4 @@
+# Main items to change
 - [ ] Header background image
 - [ ] Infographic
 - [ ] Getting Started content
