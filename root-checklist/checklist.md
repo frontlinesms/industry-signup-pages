@@ -19,7 +19,13 @@ Success.html page
 - [ ] Content on the right side of the footer
 
 ## HTML changes
+Index.html page
 - [ ] The title
 - [ ] The css, bootstrap, font, js and image links
 - [ ] The industry value in the sign up form
 - [ ] The script link to the success.html page
+
+Success.html page
+- [ ] The title
+- [ ] The css, bootstrap, font, js and image links
+- [ ] The "back to website" url
