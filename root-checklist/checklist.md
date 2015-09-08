@@ -4,16 +4,16 @@ Index.html page
 - [ ] Infographic
 - [ ] Getting Started content
 - [ ] Sign up form background image
-- [ ] Heading text for the sign up form
-- [ ] Text on the submit button in the sign up form
+- [ ] <p></p> tag text within the div id="radioForm" for the sign up form
+- [ ] div id="submit-button": Text on the submit button in the sign up form
 - [ ] Content after the sign up form before the footer
-- [ ] Footer background image
+- [ ] Footer background image (Optional)
 - [ ] Content in the footer
 
 Success.html page
 - [ ] The success message
-- [ ] "Back to website" text
-- [ ] Footer background image
+- [ ] "Back to website" text (Optional)
+- [ ] Footer background image (Optional)
 - [ ] Content in the footer
 
 ## HTML changes
