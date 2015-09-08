@@ -10,6 +10,7 @@ Index.html page
 - [ ] Footer background image
 - [ ] Content on the left side of the footer, the first button
 - [ ] Content on the right side of the footer
+- [ ] Ensure content is marked-up semantically/correctly (<h1>, etc.)
 
 Success.html page
 - [ ] The success message
@@ -17,6 +18,7 @@ Success.html page
 - [ ] Footer background image
 - [ ] Content on the left side of the footer, the first button
 - [ ] Content on the right side of the footer
+- [ ] Ensure content is marked-up semantically/correctly (<h1>, etc.)
 
 ## HTML changes
 Index.html page
@@ -39,6 +41,11 @@ Success.html page
 - [ ] Content is concise and explanatory
 - [ ] URLs are meaningful and  user-friendly
 - [ ] Html page titles are explanatory
+
+## Functional Testing
+- [ ] Cross browser test
+- [ ] Test the form validation works
+- [ ] Test all the links are valid
 
 ## Accesibility of the site check
 - [ ] Site load-time is reasonable
