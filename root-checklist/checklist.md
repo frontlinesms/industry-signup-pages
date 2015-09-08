@@ -18,7 +18,7 @@ Success.html page
 
 ## HTML changes
 Index.html page
-- [ ] The title
+- [ ] The title "<title></title>" tag in the header
 - [ ] The css, bootstrap, font, js and image links
 - [ ] The industry value in the sign up form
 - [ ] The script link to the success.html page
