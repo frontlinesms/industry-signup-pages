@@ -10,7 +10,6 @@ Index.html page
 - [ ] Footer background image
 - [ ] Content on the left side of the footer, the first button
 - [ ] Content on the right side of the footer
-- [ ] Ensure content is marked-up semantically/correctly (<h1>, etc.)
 
 Success.html page
 - [ ] The success message
@@ -18,7 +17,6 @@ Success.html page
 - [ ] Footer background image
 - [ ] Content on the left side of the footer, the first button
 - [ ] Content on the right side of the footer
-- [ ] Ensure content is marked-up semantically/correctly (<h1>, etc.)
 
 ## HTML changes
 Index.html page
@@ -27,12 +25,14 @@ Index.html page
 - [ ] The industry value in the sign up form
 - [ ] The script link to the success.html page
 - [ ] Images with appropriate alt tags
+- [ ] Ensure content is marked-up semantically/correctly (<h1></h1>,etc)
 
 Success.html page
 - [ ] The title
 - [ ] The css, bootstrap, font, js and image links
 - [ ] The "back to website" url
 - [ ] Images with appropriate alt tags
+- [ ] Ensure content is marked-up semantically/correctly (<h1></h1>,etc)
 
 ## General check
 - [ ] Major headings are clear and descriptive
