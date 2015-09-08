@@ -8,15 +8,13 @@ Index.html page
 - [ ] Text on the submit button in the sign up form
 - [ ] Content after the sign up form before the footer
 - [ ] Footer background image
-- [ ] Content on the left side of the footer, the first button
-- [ ] Content on the right side of the footer
+- [ ] Content in the footer
 
 Success.html page
 - [ ] The success message
 - [ ] "Back to website" text
 - [ ] Footer background image
-- [ ] Content on the left side of the footer, the first button
-- [ ] Content on the right side of the footer
+- [ ] Content in the footer
 
 ## HTML changes
 Index.html page
