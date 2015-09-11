@@ -1,33 +1,35 @@
 # Main items to change
 Index.html page
 - [ ] Header background image
-- [ ] Infographic
-- [ ] Getting Started content
+- [ ] Infographic image
+- [ ] Getting Started copy
 - [ ] The p tag text within the div id="radioForm" for the sign up form
-- [ ] The div id="submit-button": Text on the submit button in the sign up form
-- [ ] Content after the sign up form before the footer
+- [ ] The industry value in the sign up form
+- [ ] Text on the sign up form submit button (The div id="submit-button")
+- [ ] Explanatory copy after the sign up form before the footer
 - [ ] Sign up form background image (Optional)
 - [ ] Footer background image (Optional)
-- [ ] Content in the footer
+- [ ] RHS words content in the footer
 
 Success.html page
+- [ ] Header background image (copy from Index.html)
+- [ ] RHS words content in the footer (copy from Index.html)
 - [ ] The success message (Optional)
 - [ ] "Back to website" text (Optional)
-- [ ] Footer background image (Optional)
-- [ ] Content in the footer
+- [ ] Footer background image (Optional) (copy from Index.html)
 
 ## HTML changes
 Index.html page
 - [ ] The title tag in the header
-- [ ] The industry value in the sign up form
-- [ ] Images with appropriate alt tags
+- [ ] Alt tags for all images
 
 Success.html page
-- [ ] The title tag in the header
-- [ ] The "back to website" url
-- [ ] Images with appropriate alt tags
+- [ ] The "back to website" url set to the correct subdomain
+- [ ] The title tag in the header (copy from Index.html)
+- [ ] Alt tags for all images (copy from Index.html)
 
 ## General check
+- [ ] Images used in scale correctly and are centrally positioned for bigger screen sizes
 - [ ] Major headings are clear and descriptive
 - [ ] Styles and colors are consistent: Grey(#606161) and Pink(#a7166a)
 - [ ] Emphasis (bold,capitalized, etc) is used sparingly
@@ -42,7 +44,6 @@ Success.html page
 - [ ] Site load-time is reasonable
 - [ ] Adequate text-to-background contrast across the whole page
 - [ ] Font size and spacing easy to read
-- [ ] Images have appropriate ALT tags
 - [ ] Site has a custom Not-Found/404 page
 
 
