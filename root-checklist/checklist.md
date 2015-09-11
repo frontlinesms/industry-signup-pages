@@ -3,15 +3,15 @@ Index.html page
 - [ ] Header background image
 - [ ] Infographic
 - [ ] Getting Started content
-- [ ] Sign up form background image
 - [ ] The p tag text within the div id="radioForm" for the sign up form
 - [ ] The div id="submit-button": Text on the submit button in the sign up form
 - [ ] Content after the sign up form before the footer
+- [ ] Sign up form background image (Optional)
 - [ ] Footer background image (Optional)
 - [ ] Content in the footer
 
 Success.html page
-- [ ] The success message
+- [ ] The success message (Optional)
 - [ ] "Back to website" text (Optional)
 - [ ] Footer background image (Optional)
 - [ ] Content in the footer
@@ -19,11 +19,8 @@ Success.html page
 ## HTML changes
 Index.html page
 - [ ] The title tag in the header
-- [ ] The image links
 - [ ] The industry value in the sign up form
-- [ ] The script link to the success.html page (Optional)
 - [ ] Images with appropriate alt tags
-- [ ] Ensure content is marked-up semantically/correctly
 
 Success.html page
 - [ ] The title tag in the header
@@ -32,11 +29,9 @@ Success.html page
 
 ## General check
 - [ ] Major headings are clear and descriptive
-- [ ] Styles and colors are consistent
+- [ ] Styles and colors are consistent: Grey(#606161) and Pink(#a7166a)
 - [ ] Emphasis (bold,capitalized, etc) is used sparingly
 - [ ] Content is concise and explanatory
-- [ ] URLs are meaningful and  user-friendly
-- [ ] Html page titles are explanatory
 
 ## Functional Testing
 - [ ] Cross browser test
