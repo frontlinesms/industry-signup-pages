@@ -3,7 +3,7 @@ Index.html page
 - [ ] Header background image
 - [ ] Infographic image
 - [ ] Getting Started copy
-- [ ] The p tag text within the div id="radioForm" for the sign up form
+- [ ] The SignUp-Subtitle
 - [ ] The industry value in the sign up form
 - [ ] Text on the sign up form submit button (The div id="submit-button")
 - [ ] Explanatory copy after the sign up form before the footer
