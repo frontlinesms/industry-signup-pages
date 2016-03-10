@@ -10,8 +10,6 @@ a
 
 #header
 {
-    height: 300px;
-    background-color: #a7166a;
     background-repeat:no-repeat !important;
     -webkit-background-size:cover !important;
     -moz-background-size:cover !important;
@@ -23,8 +21,6 @@ a
 #infographic
 {
     margin: 65px 0px 10px 0px;
-    background-color: #606161;
-    height: 200px;
 }
 
 #gettingStarted
@@ -121,7 +117,7 @@ a
 
 #footer
 {
-    background-image: url(../images/Footer.png);
+    background-image: url(../images/Footer.jpg);
     background-repeat:no-repeat !important;
     -webkit-background-size:cover !important;
     -moz-background-size:cover !important;
